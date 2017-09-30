@@ -19,7 +19,7 @@ public class Test1 {
 	    @Test		
 	    public void TC1() {									
 	        
-	    	System.setProperty("webdriver.chrome.driver","/Users/chitra/Documents/chromedriver");					
+	    	System.setProperty("webdriver.chrome.driver","/Users/Shared/Jenkins/Home/jobs/MavenGitTest/workspace/chromedriver");					
 	        driver = new ChromeDriver();					
 	        		
 	        String underConsTitle = "Under Construction: Mercury Tours";					
