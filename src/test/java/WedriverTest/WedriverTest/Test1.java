@@ -62,7 +62,7 @@ public class Test1 {
 	    		
 	    }
 	    
-	    //@AfterSuite
+	    @AfterSuite
 	    
 	    public void close(){
 	    	driver.quit();
