@@ -34,7 +34,8 @@ public class Test1 {
 			int	i = 0;	
 			//extract the link texts of each link element		
 			for (WebElement e : linkElements) {							
-				linkTexts[i] = e.getText();							
+				linkTexts[i] = e.getText();
+				System.out.println(e.getText());
 				i++;
 			}	
 			
