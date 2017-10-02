@@ -27,7 +27,7 @@ public class Test1 {
 
 			driver.get(baseUrl);
 			System.out.println("Testcase passes "+Thread.currentThread().getStackTrace()[1].getMethodName());
-			/*
+			
 	        List<WebElement> linkElements = driver.findElements(By.tagName("a"));	
 
 	        String[] linkTexts = new String[linkElements.size()];							
@@ -51,7 +51,7 @@ public class Test1 {
 				System.out.println("\"" + t + "\""								 + " is working.");			
 				}		
 				driver.navigate().back();	
-			}		*/		
+			}			
 	    }	
 	    
 	    @Test
