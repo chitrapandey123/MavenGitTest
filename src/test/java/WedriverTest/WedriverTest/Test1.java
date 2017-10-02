@@ -48,9 +48,10 @@ public class Test1 {
 							+ " is under construction.");			
 				} 
 				else {
-				System.out.println("\"" + t + "\""								 + " is working.");			
+				System.out.println("\"" + t + "\""	+ " is working.");			
 				}		
 				driver.navigate().back();	
+				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
 			}			
 	    }	
 	    
